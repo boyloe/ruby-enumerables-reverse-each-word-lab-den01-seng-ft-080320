@@ -16,7 +16,6 @@ def reverse_each_word(string)
   reverse_array = []
   array.collect do |element|
     reverse_array << element.reverse
-    binding.pry
   end
   reverse_string = reverse_array.join(" ")
 end  
